@@ -17,5 +17,6 @@ namespace ProEventos.Domain
         public IEnumerable<Lote> Lotes { get; set; }
         public IEnumerable<RedeSocial> RedesSociais { get; set; }
         public IEnumerable<PalestranteEvento> PalestrantesEventos { get; set; }
+        public int EventoId { get; set; }
     }
 }
