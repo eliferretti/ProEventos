@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
+    "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
+    "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectUniqueName": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "C:\\Projetos\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "packagesPath": "C:\\Users\\eli.filho\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\obj\\",
+        "outputPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eli.filho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Aplication\\ProEventos.Aplication.csproj": {
+                "projectPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Aplication\\ProEventos.Aplication.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -83,6 +87,185 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Aplication\\ProEventos.Aplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Aplication\\ProEventos.Aplication.csproj",
+        "projectName": "ProEventos.Aplication",
+        "projectPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Aplication\\ProEventos.Aplication.csproj",
+        "packagesPath": "C:\\Users\\eli.filho\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Aplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eli.filho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
+              },
+              "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
+                "projectPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
+        "projectName": "ProEventos.Domain",
+        "projectPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
+        "packagesPath": "C:\\Users\\eli.filho\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eli.filho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
+        "projectName": "ProEventos.Persistence",
+        "projectPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
+        "packagesPath": "C:\\Users\\eli.filho\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eli.filho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

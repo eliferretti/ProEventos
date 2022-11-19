@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProEventos.API",
+    "\\ProEventos.API\\Models"
   ],
+  "SelectedNode": "\\ProEventos.API\\Models\\Evento.cs",
   "PreviewInSolutionExplorer": false
 }

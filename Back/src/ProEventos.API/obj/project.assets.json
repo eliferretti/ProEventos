@@ -1763,6 +1763,44 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ProEventos.Aplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ProEventos.Domain": "1.0.0",
+          "ProEventos.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProEventos.Aplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProEventos.Aplication.dll": {}
+        }
+      },
+      "ProEventos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ProEventos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProEventos.Domain.dll": {}
+        }
+      },
+      "ProEventos.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.4",
+          "ProEventos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProEventos.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProEventos.Persistence.dll": {}
+        }
       }
     }
   },
@@ -6319,6 +6357,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "ProEventos.Aplication/1.0.0": {
+      "type": "project",
+      "path": "../ProEventos.Aplication/ProEventos.Aplication.csproj",
+      "msbuildProject": "../ProEventos.Aplication/ProEventos.Aplication.csproj"
+    },
+    "ProEventos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ProEventos.Domain/ProEventos.Domain.csproj",
+      "msbuildProject": "../ProEventos.Domain/ProEventos.Domain.csproj"
+    },
+    "ProEventos.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../ProEventos.Persistence/ProEventos.Persistence.csproj",
+      "msbuildProject": "../ProEventos.Persistence/ProEventos.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6328,6 +6381,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.4",
+      "ProEventos.Aplication >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -6337,11 +6391,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+      "projectUniqueName": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
       "projectName": "ProEventos.API",
-      "projectPath": "C:\\Projetos\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+      "projectPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
       "packagesPath": "C:\\Users\\eli.filho\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\obj\\",
+      "outputPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eli.filho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6357,7 +6411,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Aplication\\ProEventos.Aplication.csproj": {
+              "projectPath": "C:\\Projetos\\Testes\\Angular+CSharp  full stack\\PROEVENTOS\\Back\\src\\ProEventos.Aplication\\ProEventos.Aplication.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -25,6 +25,12 @@ namespace ProEventos.API.Controllers
 
         }
 
+        //[HttpGet("{id}/{nome}")]
+        //public string GetIdNome(int id, string nome)
+        //{
+        //    return "Método get id:" + id + " Nome: " + nome;
+        //}
+
         [HttpGet("{id}")]
         public IEnumerable<Evento> GetById(int id)
         {
