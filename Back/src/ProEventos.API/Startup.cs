@@ -14,6 +14,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MySql.Data;
+
+
+
+
+
+
+
 
 namespace ProEventos.API
 {
@@ -30,8 +38,10 @@ namespace ProEventos.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ProEventosContext>(
+                
                 // SQLite
                 context => context.UseSqlite(Configuration.GetConnectionString("Default"))
+                //context => context.UseMySql(Configuration.GetConnectionString("Default"))
 
                 // SQLServer
                 //context => context.UseSqlServer(Configuration.GetConnectionString("Default"))
