@@ -1782,6 +1782,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.4",
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.4",
           "ProEventos.Domain": "1.0.0"
         },
         "compile": {

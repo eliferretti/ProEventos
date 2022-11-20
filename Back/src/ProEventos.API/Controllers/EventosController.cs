@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ProEventos.Domain;
 //using ProEventos.API.Models;
-using ProEventos.Persistence;
+using ProEventos.Persistence.Contextos;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -175,6 +175,4 @@ C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API
 C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.genruntimeconfig.cache
 C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\obj\Debug\net5.0\ref\ProEventos.API.dll
 C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\Proeventos.API\bin\Debug\net5.0\ref\ProEventos.API.dll
-C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\Proeventos.API\bin\Debug\net5.0\MySqlConnector.dll
-C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\Proeventos.API\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\Proeventos.API\bin\Debug\net5.0\Pomelo.JsonObject.dll
+C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csproj.CopyComplete

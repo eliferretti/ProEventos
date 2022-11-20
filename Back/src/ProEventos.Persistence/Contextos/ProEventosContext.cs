@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProEventos.Domain;
 
-namespace ProEventos.Persistence
+namespace ProEventos.Persistence.Contextos
 {
     public class ProEventosContext : DbContext
     {
@@ -17,7 +17,7 @@ namespace ProEventos.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<PalestranteEvento>().HasKey(PE => new { PE.EventoId, PE.PalestranteId});
+            modelBuilder.Entity<PalestranteEvento>().HasKey(PE => new { PE.EventoId, PE.PalestranteId });
         }
     }
 }
