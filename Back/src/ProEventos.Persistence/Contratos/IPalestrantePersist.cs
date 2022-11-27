@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace ProEventos.Persistence.Contratos
 {
-    public interface IPalestrantePersist //: IGeralPersist
+    public interface IPalestrantePersist
     {
         //PALESTRANTES
-        Task<Palestrante[]> GetAllPalestrantesByNomeAsync(string nome, bool includePalestrantes = false);
-        Task<Palestrante[]> GetAllPalestrantesAsync(bool includePalestrantes = false);
-        Task<Palestrante> GetPalestranteByIdAsync(int palestranteId, bool includePalestrantes = false);
+        Task<Palestrante[]> GetAllPalestrantesByNomeAsync(string nome, bool includePalestrantes);
+        Task<Palestrante[]> GetAllPalestrantesAsync(bool includePalestrantes);
+        Task<Palestrante> GetPalestranteByIdAsync(int palestranteId, bool includePalestrantes);
     }
 }

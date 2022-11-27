@@ -59,7 +59,8 @@ namespace ProEventos.Aplication
             }
         }
 
-        public async Task<bool> DeleteEvento(int eventoId)
+       
+        public async Task<Evento> DeleteEvento(int eventoId)
         {
             try
             {
@@ -68,7 +69,9 @@ namespace ProEventos.Aplication
                 if (evento == null) throw new Exception("Evento não encontrado");
 
                 _geralPersist.Delete<Evento>(evento);
-                return await _geralPersist.SaveChangesAsync();
+                var status = await _geralPersist.SaveChangesAsync();
+                //return await _geralPersist.SaveChangesAsync();
+                return evento;
             }
             catch (Exception ex)
             {
@@ -119,7 +122,5 @@ namespace ProEventos.Aplication
                 throw new Exception(ex.Message);
             }
         }
-
-     
     }
 }

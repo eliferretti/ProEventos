@@ -174,5 +174,8 @@ C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API
 C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.pdb
 C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.genruntimeconfig.cache
 C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\obj\Debug\net5.0\ref\ProEventos.API.dll
-C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\Proeventos.API\bin\Debug\net5.0\ref\ProEventos.API.dll
 C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csproj.CopyComplete
+C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\obj\Debug\net5.0\refint\ProEventos.API.dll
+C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Projetos\Testes\Angular+CSharp  full stack\PROEVENTOS\Back\src\ProEventos.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
